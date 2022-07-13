@@ -1,0 +1,18 @@
+.logo-ok {
+
+  &:hover {
+    background: #7859cf;
+    background: #f0ebff;
+    border-radius: 4px;
+  }
+
+  &:active {
+    background: #7859cf;
+    background: rgba(120, 89, 207, 0.25);
+    border-radius: 4px;
+  }
+
+  &:disabled {
+    background: #bdbdbd;
+  }
+}

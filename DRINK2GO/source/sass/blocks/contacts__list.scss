@@ -1,0 +1,46 @@
+.contacts {
+  @media (min-width: $tablet-width) {
+    width: 223px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 317px;
+  }
+}
+
+.contacts__list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 41px;
+}
+
+.contacts__link {
+  font-family: $font-drink;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.contacts__item {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+
+.contacts__item-address {
+  position: absolute;
+  top: 5px;
+  left: -20px;
+}
+
+.contacts__item-phone {
+  position: absolute;
+  top: 5px;
+  left: -20px;
+}

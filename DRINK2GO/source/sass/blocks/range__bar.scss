@@ -1,0 +1,43 @@
+.range__bar {
+  position: absolute;
+  width: 241px;
+  height: 4px;
+  top: -1px;
+  left: 0px;
+  background-color: rgba(144, 112, 236, 1);
+
+  @media (min-width: $tablet-width) {
+    width: 192px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 274px;
+  }
+}
+
+.range__bar-range-toggle {
+  position: absolute;
+  top: -11px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid #9070ec;
+
+    &--max {
+      top: -11px;
+      left: 234px;
+
+      @media (min-width: $tablet-width) {
+        top: -11px;
+        left: 181px;
+      }
+
+      @media (min-width: $desktop-width) {
+        top: -11px;
+        left: 273px;
+    }
+  }
+}

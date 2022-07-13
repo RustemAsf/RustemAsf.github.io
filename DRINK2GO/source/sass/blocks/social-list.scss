@@ -1,0 +1,27 @@
+.social__list {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  min-width: 153px;
+  justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    width: 140px;
+  }
+}
+
+.social__item::before {
+  position: absolute;
+  content: "";
+  top: 50px;
+  left: -160px;
+  width: 320px;
+  height: 1px;
+  background: #f0ebff;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
